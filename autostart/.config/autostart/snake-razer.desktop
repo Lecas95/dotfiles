@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Icon=/home/lecas/.local/share/pixmaps/snake-razer.png
+Exec=/home/lecas/snake-razer/bin/snake -- --no-open
+Name=Snake
+Comment=Control and configure your Razer devices
+Categories=Utility;Core;
+StartupNotify=false
+Type=Application
+Keywords=razer;snake;mamba;chroma;deathadder
+X-GNOME-Autostart-enabled=true

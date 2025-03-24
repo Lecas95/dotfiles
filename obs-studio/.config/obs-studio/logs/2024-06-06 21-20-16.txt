@@ -1,0 +1,316 @@
+21:20:16.669: Platform: Wayland
+21:20:16.669: CPU Name: AMD Ryzen 7 7735HS with Radeon Graphics
+21:20:16.669: CPU Speed: 4715.497MHz
+21:20:16.669: Physical Cores: 8, Logical Cores: 16
+21:20:16.669: Physical Memory: 30845MB Total, 6545MB Free
+21:20:16.669: Kernel Version: Linux 6.9.3-arch1-1
+21:20:16.669: Distribution: "Arch Linux" Unknown
+21:20:16.669: Desktop Environment: Hyprland ()
+21:20:16.669: Session Type: wayland
+21:20:16.671: Qt Version: 6.7.1 (runtime), 6.7.0 (compiled)
+21:20:16.671: Portable mode: false
+21:20:16.696: OBS 30.1.2-1 (linux)
+21:20:16.696: ---------------------------------
+21:20:16.697: ---------------------------------
+21:20:16.697: audio settings reset:
+21:20:16.697: 	samples per sec: 48000
+21:20:16.697: 	speakers:        2
+21:20:16.697: 	max buffering:   960 milliseconds
+21:20:16.697: 	buffering type:  dynamically increasing
+21:20:16.698: ---------------------------------
+21:20:16.698: Initializing OpenGL...
+21:20:16.698: Using EGL/Wayland
+21:20:16.733: Initialized EGL 1.5
+21:20:16.743: Loading up OpenGL on adapter AMD AMD Radeon 680M (radeonsi, rembrandt, LLVM 17.0.6, DRM 3.57, 6.9.3-arch1-1)
+21:20:16.743: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.1.1-arch1.1, shading language 4.60
+21:20:16.841: ---------------------------------
+21:20:16.841: video settings reset:
+21:20:16.841: 	base resolution:   1920x1080
+21:20:16.841: 	output resolution: 1280x720
+21:20:16.841: 	downscale filter:  Bicubic
+21:20:16.841: 	fps:               30/1
+21:20:16.841: 	format:            NV12
+21:20:16.841: 	YUV mode:          Rec. 709/Partial
+21:20:16.841: NV12 texture support enabled
+21:20:16.841: P010 texture support not available
+21:20:16.845: Audio monitoring device:
+21:20:16.845: 	name: Default
+21:20:16.845: 	id: default
+21:20:16.845: ---------------------------------
+21:20:16.855: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:20:16.863: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:20:16.870: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:20:16.870: Failed to initialize module 'decklink.so'
+21:20:16.873: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+21:20:16.873: 
+21:20:16.876: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+21:20:16.876: 
+21:20:16.876: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+21:20:16.926: [pipewire] Available captures:
+21:20:16.926: [pipewire]     - Desktop capture
+21:20:16.926: [pipewire]     - Window capture
+21:20:16.947: v4l2loopback not installed, virtual camera disabled
+21:20:17.003: VAAPI: API version 1.21
+21:20:17.005: FFmpeg VAAPI H264 encoding supported
+21:20:17.013: FFmpeg VAAPI AV1 encoding not supported
+21:20:17.022: FFmpeg VAAPI HEVC encoding supported
+21:20:17.136: ---------------------------------
+21:20:17.136:   Loaded Modules:
+21:20:17.136:     text-freetype2.so
+21:20:17.136:     rtmp-services.so
+21:20:17.136:     obs-x264.so
+21:20:17.136:     obs-webrtc.so
+21:20:17.136:     obs-vst.so
+21:20:17.136:     obs-transitions.so
+21:20:17.136:     obs-qsv11.so
+21:20:17.136:     obs-outputs.so
+21:20:17.136:     obs-libfdk.so
+21:20:17.136:     obs-filters.so
+21:20:17.136:     obs-ffmpeg.so
+21:20:17.136:     linux-v4l2.so
+21:20:17.136:     linux-pulseaudio.so
+21:20:17.136:     linux-pipewire.so
+21:20:17.136:     linux-jack.so
+21:20:17.136:     linux-capture.so
+21:20:17.136:     linux-alsa.so
+21:20:17.136:     image-source.so
+21:20:17.136:     decklink-output-ui.so
+21:20:17.136:     decklink-captions.so
+21:20:17.136: ---------------------------------
+21:20:17.136: ==== Startup complete ===============================================
+21:20:17.141: No scene file found, creating default scene
+21:20:17.169: All scene data cleared
+21:20:17.169: ------------------------------------------------
+21:20:17.185: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+21:20:17.185: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:20:17.185: pulse-input: Started recording from 'alsa_output.pci-0000_04_00.6.analog-stereo.monitor' (default)
+21:20:17.186: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.7) 15.0.0'
+21:20:17.186: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:20:17.186: pulse-input: Started recording from 'alsa_output.pci-0000_04_00.6.analog-stereo.monitor' (default)
+21:20:17.187: Switched to scene 'Scene'
+21:20:17.187: Failed to glob scene collections
+21:20:17.667: [rtmp-services plugin] Successfully updated file 'services.json' (version 254)
+21:20:17.668: [rtmp-services plugin] Successfully updated package (version 254)
+21:20:17.785: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+21:20:17.785: 
+21:20:18.980: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic/Aux)
+21:20:18.980: 
+21:20:32.670: 
+21:20:32.670: ==== Auto-config wizard testing commencing ======
+
+21:20:32.679: Number of remaining views: 1
+21:20:32.679: ---------------------------------
+21:20:32.679: video settings reset:
+21:20:32.679: 	base resolution:   1920x1080
+21:20:32.679: 	output resolution: 1724x1080
+21:20:32.679: 	downscale filter:  Bicubic
+21:20:32.679: 	fps:               60/1
+21:20:32.679: 	format:            NV12
+21:20:32.679: 	YUV mode:          Rec. 709/Partial
+21:20:32.680: NV12 texture support enabled
+21:20:32.680: P010 texture support not available
+21:20:32.682: Output 'null': Tried to use obs_output_set_media on an encoded output
+21:20:32.682: ---------------------------------
+21:20:32.682: [x264 encoder: 'test_x264'] preset: veryfast
+21:20:32.682: [x264 encoder: 'test_x264'] profile: high
+21:20:32.714: [x264 encoder: 'test_x264'] settings:
+21:20:32.714: 	rate_control: CRF
+21:20:32.714: 	bitrate:      0
+21:20:32.714: 	buffer size:  0
+21:20:32.714: 	crf:          20
+21:20:32.714: 	fps_num:      60
+21:20:32.714: 	fps_den:      1
+21:20:32.714: 	width:        1724
+21:20:32.714: 	height:       1080
+21:20:32.714: 	keyint:       250
+21:20:32.714: 
+21:20:32.746: ---------------------------------
+21:20:32.748: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+21:20:32.748: 
+21:20:37.750: Output 'null': stopping
+21:20:37.750: Output 'null': Total frames output: 251
+21:20:37.750: Output 'null': Total drawn frames: 300
+21:20:37.859: Video stopped, number of skipped frames due to encoding lag: 33/299 (11.0%)
+21:20:37.985: Number of remaining views: 1
+21:20:37.985: ---------------------------------
+21:20:37.985: video settings reset:
+21:20:37.985: 	base resolution:   1920x1080
+21:20:37.985: 	output resolution: 1724x1080
+21:20:37.985: 	downscale filter:  Bicubic
+21:20:37.985: 	fps:               30/1
+21:20:37.985: 	format:            NV12
+21:20:37.985: 	YUV mode:          Rec. 709/Partial
+21:20:37.985: NV12 texture support enabled
+21:20:37.985: P010 texture support not available
+21:20:37.986: Output 'null': Tried to use obs_output_set_media on an encoded output
+21:20:37.986: ---------------------------------
+21:20:37.986: [x264 encoder: 'test_x264'] preset: veryfast
+21:20:37.986: [x264 encoder: 'test_x264'] profile: high
+21:20:37.986: [x264 encoder: 'test_x264'] settings:
+21:20:37.986: 	rate_control: CRF
+21:20:37.986: 	bitrate:      0
+21:20:37.986: 	buffer size:  0
+21:20:37.986: 	crf:          20
+21:20:37.986: 	fps_num:      30
+21:20:37.986: 	fps_den:      1
+21:20:37.986: 	width:        1724
+21:20:37.986: 	height:       1080
+21:20:37.986: 	keyint:       250
+21:20:37.986: 
+21:20:38.014: ---------------------------------
+21:20:38.014: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+21:20:38.014: 
+21:20:43.015: Output 'null': stopping
+21:20:43.015: Output 'null': Total frames output: 111
+21:20:43.015: Output 'null': Total drawn frames: 150
+21:20:43.121: Number of remaining views: 1
+21:20:43.121: ---------------------------------
+21:20:43.121: video settings reset:
+21:20:43.121: 	base resolution:   1920x1080
+21:20:43.121: 	output resolution: 1148x720
+21:20:43.121: 	downscale filter:  Bicubic
+21:20:43.121: 	fps:               60/1
+21:20:43.121: 	format:            NV12
+21:20:43.121: 	YUV mode:          Rec. 709/Partial
+21:20:43.121: NV12 texture support enabled
+21:20:43.121: P010 texture support not available
+21:20:43.123: Output 'null': Tried to use obs_output_set_media on an encoded output
+21:20:43.123: ---------------------------------
+21:20:43.123: [x264 encoder: 'test_x264'] preset: veryfast
+21:20:43.123: [x264 encoder: 'test_x264'] profile: high
+21:20:43.124: [x264 encoder: 'test_x264'] settings:
+21:20:43.124: 	rate_control: CRF
+21:20:43.124: 	bitrate:      0
+21:20:43.124: 	buffer size:  0
+21:20:43.124: 	crf:          20
+21:20:43.124: 	fps_num:      60
+21:20:43.124: 	fps_den:      1
+21:20:43.124: 	width:        1148
+21:20:43.124: 	height:       720
+21:20:43.124: 	keyint:       250
+21:20:43.124: 
+21:20:43.130: ---------------------------------
+21:20:43.131: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+21:20:43.131: 
+21:20:48.131: Output 'null': stopping
+21:20:48.131: Output 'null': Total frames output: 263
+21:20:48.131: Output 'null': Total drawn frames: 300
+21:20:48.175: Number of remaining views: 1
+21:20:48.175: ---------------------------------
+21:20:48.175: video settings reset:
+21:20:48.175: 	base resolution:   1920x1080
+21:20:48.175: 	output resolution: 1148x720
+21:20:48.175: 	downscale filter:  Bicubic
+21:20:48.175: 	fps:               30/1
+21:20:48.175: 	format:            NV12
+21:20:48.175: 	YUV mode:          Rec. 709/Partial
+21:20:48.175: NV12 texture support enabled
+21:20:48.175: P010 texture support not available
+21:20:48.177: Output 'null': Tried to use obs_output_set_media on an encoded output
+21:20:48.177: ---------------------------------
+21:20:48.177: [x264 encoder: 'test_x264'] preset: veryfast
+21:20:48.177: [x264 encoder: 'test_x264'] profile: high
+21:20:48.177: [x264 encoder: 'test_x264'] settings:
+21:20:48.177: 	rate_control: CRF
+21:20:48.177: 	bitrate:      0
+21:20:48.177: 	buffer size:  0
+21:20:48.177: 	crf:          20
+21:20:48.177: 	fps_num:      30
+21:20:48.177: 	fps_den:      1
+21:20:48.177: 	width:        1148
+21:20:48.177: 	height:       720
+21:20:48.177: 	keyint:       250
+21:20:48.177: 
+21:20:48.185: ---------------------------------
+21:20:48.185: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+21:20:48.185: 
+21:20:53.185: Output 'null': stopping
+21:20:53.185: Output 'null': Total frames output: 113
+21:20:53.185: Output 'null': Total drawn frames: 150
+21:20:53.246: Number of remaining views: 1
+21:20:53.246: ---------------------------------
+21:20:53.246: video settings reset:
+21:20:53.246: 	base resolution:   1920x1080
+21:20:53.246: 	output resolution: 1280x720
+21:20:53.246: 	downscale filter:  Bicubic
+21:20:53.246: 	fps:               30/1
+21:20:53.246: 	format:            NV12
+21:20:53.246: 	YUV mode:          Rec. 709/Partial
+21:20:53.246: NV12 texture support enabled
+21:20:53.246: P010 texture support not available
+21:20:59.651: Number of remaining views: 1
+21:20:59.651: ---------------------------------
+21:20:59.651: video settings reset:
+21:20:59.651: 	base resolution:   2560x1600
+21:20:59.651: 	output resolution: 1148x720
+21:20:59.651: 	downscale filter:  Bicubic
+21:20:59.651: 	fps:               60/1
+21:20:59.651: 	format:            NV12
+21:20:59.651: 	YUV mode:          Rec. 709/Partial
+21:20:59.651: NV12 texture support enabled
+21:20:59.651: P010 texture support not available
+21:20:59.656: 
+21:20:59.656: ==== Auto-config wizard testing stopping ========
+
+21:21:11.930: PipeWire initialized
+21:21:11.932: User added source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) to scene 'Scene'
+21:21:12.003: [pipewire] Screencast session created
+21:21:16.046: [pipewire] Asking for desktop
+21:21:16.048: [pipewire] desktop selected, setting up screencast
+21:21:16.054: [pipewire] Server version: 1.0.7
+21:21:16.054: [pipewire] Library version: 1.0.7
+21:21:16.054: [pipewire] Header version: 1.0.5
+21:21:16.054: [pipewire] Created stream 0x5839d936f310
+21:21:16.054: [pipewire] Stream 0x5839d936f310 state: "connecting" (error: none)
+21:21:16.055: [pipewire] Playing stream 0x5839d936f310
+21:21:16.055: [pipewire] Stream 0x5839d936f310 state: "paused" (error: none)
+21:21:16.062: [pipewire] Negotiated format:
+21:21:16.062: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:21:16.062: [pipewire]     Modifier: 0x0
+21:21:16.062: [pipewire]     Size: 2560x1600
+21:21:16.062: [pipewire]     Framerate: 0/1
+21:21:16.063: [pipewire] Negotiated format:
+21:21:16.063: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:21:16.063: [pipewire]     Modifier: 0x20000001056bb03
+21:21:16.064: [pipewire]     Size: 2560x1600
+21:21:16.064: [pipewire]     Framerate: 0/1
+21:21:16.109: [pipewire] Stream 0x5839d936f310 state: "streaming" (error: none)
+21:21:16.123: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+21:21:16.123: [pipewire] Renegotiating stream
+21:21:16.124: [pipewire] Negotiated format:
+21:21:16.124: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:21:16.124: [pipewire]     Modifier: 0x20000001056bb03
+21:21:16.124: [pipewire]     Size: 2560x1600
+21:21:16.124: [pipewire]     Framerate: 0/1
+21:21:16.127: [pipewire] Negotiated format:
+21:21:16.127: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:21:16.127: [pipewire]     Modifier: 0x200000010567b03
+21:21:16.127: [pipewire]     Size: 2560x1600
+21:21:16.127: [pipewire]     Framerate: 0/1
+21:21:16.155: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+21:21:16.155: [pipewire] Renegotiating stream
+21:21:16.156: [pipewire] Stream 0x5839d936f310 state: "paused" (error: none)
+21:21:16.156: [pipewire] Negotiated format:
+21:21:16.156: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:21:16.156: [pipewire]     Modifier: 0x200000010567b03
+21:21:16.156: [pipewire]     Size: 2560x1600
+21:21:16.156: [pipewire]     Framerate: 0/1
+21:21:16.157: [pipewire] Negotiated format:
+21:21:16.157: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:21:16.157: [pipewire]     Modifier: 0x200000010537b03
+21:21:16.157: [pipewire]     Size: 2560x1600
+21:21:16.157: [pipewire]     Framerate: 0/1
+21:21:16.160: [pipewire] Stream 0x5839d936f310 state: "streaming" (error: none)
+21:21:16.174: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+21:21:16.174: [pipewire] Renegotiating stream
+21:21:16.174: [pipewire] Negotiated format:
+21:21:16.174: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:21:16.174: [pipewire]     Modifier: 0x200000010537b03
+21:21:16.174: [pipewire]     Size: 2560x1600
+21:21:16.174: [pipewire]     Framerate: 0/1
+21:21:16.178: [pipewire] Negotiated format:
+21:21:16.178: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:21:16.178: [pipewire]     Modifier: 0x200000010401b03
+21:21:16.178: [pipewire]     Size: 2560x1600
+21:21:16.178: [pipewire]     Framerate: 0/1
+21:22:35.264: The Wayland connection broke during blocking read event. Did the Wayland compositor die?

@@ -1,0 +1,253 @@
+09:54:01.827: Platform: Wayland
+09:54:01.827: CPU Name: AMD Ryzen 7 7735HS with Radeon Graphics
+09:54:01.827: CPU Speed: 2055.813MHz
+09:54:01.828: Physical Cores: 8, Logical Cores: 16
+09:54:01.828: Physical Memory: 30848MB Total, 2879MB Free
+09:54:01.828: Kernel Version: Linux 6.6.47-1-lts
+09:54:01.828: Distribution: "Arch Linux" Unknown
+09:54:01.828: Desktop Environment: Hyprland ()
+09:54:01.828: Session Type: wayland
+09:54:01.829: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+09:54:01.829: Portable mode: false
+09:54:01.859: OBS 30.2.1-1 (linux)
+09:54:01.859: ---------------------------------
+09:54:01.859: ---------------------------------
+09:54:01.860: audio settings reset:
+09:54:01.860: 	samples per sec: 48000
+09:54:01.860: 	speakers:        2
+09:54:01.860: 	max buffering:   960 milliseconds
+09:54:01.860: 	buffering type:  dynamically increasing
+09:54:01.864: ---------------------------------
+09:54:01.864: Initializing OpenGL...
+09:54:01.864: Using EGL/Wayland
+09:54:01.894: Initialized EGL 1.5
+09:54:01.904: Loading up OpenGL on adapter AMD AMD Radeon 680M (radeonsi, rembrandt, LLVM 18.1.8, DRM 3.54, 6.6.47-1-lts)
+09:54:01.904: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.1.6-arch1.1, shading language 4.60
+09:54:01.931: ---------------------------------
+09:54:01.931: video settings reset:
+09:54:01.931: 	base resolution:   2560x1600
+09:54:01.931: 	output resolution: 1148x720
+09:54:01.931: 	downscale filter:  Bicubic
+09:54:01.931: 	fps:               60/1
+09:54:01.931: 	format:            NV12
+09:54:01.931: 	YUV mode:          Rec. 709/Partial
+09:54:01.931: NV12 texture support enabled
+09:54:01.931: P010 texture support not available
+09:54:01.935: Audio monitoring device:
+09:54:01.935: 	name: Default
+09:54:01.935: 	id: default
+09:54:01.936: ---------------------------------
+09:54:01.946: Failed to load 'en-US' text for module: 'decklink-captions.so'
+09:54:01.957: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+09:54:01.966: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:54:01.966: Failed to initialize module 'decklink.so'
+09:54:02.120: [pipewire] No capture sources available
+09:54:02.143: v4l2loopback not installed, virtual camera not registered
+09:54:02.232: VAAPI: API version 1.22
+09:54:02.234: FFmpeg VAAPI H264 encoding supported
+09:54:02.242: FFmpeg VAAPI AV1 encoding not supported
+09:54:02.250: FFmpeg VAAPI HEVC encoding supported
+09:54:02.400: ---------------------------------
+09:54:02.400:   Loaded Modules:
+09:54:02.400:     text-freetype2.so
+09:54:02.400:     rtmp-services.so
+09:54:02.400:     obs-x264.so
+09:54:02.400:     obs-webrtc.so
+09:54:02.400:     obs-vst.so
+09:54:02.400:     obs-transitions.so
+09:54:02.400:     obs-qsv11.so
+09:54:02.400:     obs-outputs.so
+09:54:02.400:     obs-libfdk.so
+09:54:02.400:     obs-filters.so
+09:54:02.400:     obs-ffmpeg.so
+09:54:02.400:     linux-v4l2.so
+09:54:02.400:     linux-pulseaudio.so
+09:54:02.400:     linux-pipewire.so
+09:54:02.400:     linux-jack.so
+09:54:02.400:     linux-capture.so
+09:54:02.400:     linux-alsa.so
+09:54:02.400:     image-source.so
+09:54:02.400:     frontend-tools.so
+09:54:02.400:     decklink-output-ui.so
+09:54:02.400:     decklink-captions.so
+09:54:02.400: ---------------------------------
+09:54:02.401: ---------------------------------
+09:54:02.401: Available Encoders:
+09:54:02.401:   Video Encoders:
+09:54:02.401: 	- ffmpeg_svt_av1 (SVT-AV1)
+09:54:02.401: 	- ffmpeg_aom_av1 (AOM AV1)
+09:54:02.401: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+09:54:02.401: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+09:54:02.401: 	- obs_x264 (x264)
+09:54:02.401:   Audio Encoders:
+09:54:02.401: 	- ffmpeg_aac (FFmpeg AAC)
+09:54:02.401: 	- ffmpeg_opus (FFmpeg Opus)
+09:54:02.401: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+09:54:02.401: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+09:54:02.401: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+09:54:02.401: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+09:54:02.401: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+09:54:02.401: 	- libfdk_aac (libfdk AAC)
+09:54:02.401: ==== Startup complete ===============================================
+09:54:02.438: All scene data cleared
+09:54:02.438: ------------------------------------------------
+09:54:02.442: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.2) 15.0.0'
+09:54:02.442: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:54:02.442: pulse-input: Started recording from 'alsa_output.pci-0000_04_00.6.HiFi__Headphones__sink.monitor' (default)
+09:54:02.442: [Loaded global audio device]: 'Desktop Audio'
+09:54:02.443: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.2) 15.0.0'
+09:54:02.443: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:54:02.443: pulse-input: Started recording from 'alsa_input.pci-0000_04_00.6.HiFi__Mic2__source' (default)
+09:54:02.443: [Loaded global audio device]: 'Mic/Aux'
+09:54:02.443: Source ID 'pipewire-desktop-capture-source' not found
+09:54:02.443: Failed to create source 'Screen Capture (PipeWire)'!
+09:54:02.444: Switched to scene 'Scene'
+09:54:02.444: ------------------------------------------------
+09:54:02.444: Loaded scenes:
+09:54:02.444: - scene 'Scene':
+09:54:02.444:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+09:54:02.444: ------------------------------------------------
+09:54:03.033: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+09:54:03.033: 
+09:54:03.055: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+09:54:03.055: 
+09:54:13.545: Get on org.freedesktop.portal.Settings returned an invalid reply
+09:54:13.545: Get on org.freedesktop.portal.Settings returned an invalid reply
+09:54:13.597:   OpenType support missing for "Open Sans", script 11
+09:54:13.601:   OpenType support missing for "Open Sans", script 12
+09:54:13.604:   OpenType support missing for "Open Sans", script 16
+09:54:13.608:   OpenType support missing for "Open Sans", script 20
+09:55:44.453: User Removed source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) from scene 'Scene'
+09:56:05.264: v4l2-input: Start capture from 
+09:56:05.264: v4l2-input: Unable to open device
+09:56:05.264: v4l2-input: Initialization failed, errno: No such file or directory
+09:56:05.267: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Scene'
+09:56:05.275: v4l2-input: /dev/video3 seems to not support video capture
+09:56:05.275: v4l2-input: /dev/video1 seems to not support video capture
+09:56:05.416: v4l2-input: Found device 'Integrated RGB Camera: Integrat' at /dev/video2
+09:56:05.417: v4l2-input: Found device 'Integrated RGB Camera: Integrat' at /dev/video0
+09:56:05.419: v4l2-input: Found input 'Camera 1' (Index 0)
+09:56:05.419: v4l2-input: Pixelformat: 8-bit Greyscale (unavailable)
+09:56:05.419: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+09:56:05.419: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+09:56:05.419: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+09:56:05.419: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+09:56:05.420: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+09:56:05.420: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:56:05.422: v4l2-input: Pixelformat: 8-bit Greyscale (unavailable)
+09:56:05.422: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+09:56:05.422: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+09:56:05.422: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+09:56:05.422: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+09:56:05.423: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+09:56:05.423: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:56:05.425: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:56:05.436: v4l2-input: Start capture from /dev/video2
+09:56:05.437: v4l2-input: Input: 0
+09:56:05.456: v4l2-input: Resolution: 640x360
+09:56:05.456: v4l2-input: Pixelformat: BGR3
+09:56:05.456: v4l2-input: Linesize: 1920 Bytes
+09:56:05.456: v4l2-input: Framerate: 15.00 fps
+09:56:05.457: v4l2-input: /dev/video2: select timeout set to 333333 (5x frame periods)
+09:56:07.917: v4l2-input: Found input 'Camera 1' (Index 0)
+09:56:07.970: v4l2-controls: setting default for Power Line Frequency to 1
+09:56:07.985: v4l2-input: /dev/video2: Stopped capture after 35 frames
+09:56:08.059: v4l2-input: Start capture from /dev/video0
+09:56:08.081: v4l2-input: Input: 0
+09:56:08.090: v4l2-controls: setting default for Auto Exposure to 3
+09:56:08.112: v4l2-input: Resolution: 1280x720
+09:56:08.112: v4l2-input: Pixelformat: BGR3
+09:56:08.112: v4l2-input: Linesize: 3840 Bytes
+09:56:08.112: v4l2-input: Framerate: 30.00 fps
+09:56:08.113: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+09:56:08.133: v4l2-input: Pixelformat: Motion-JPEG (available)
+09:56:08.133: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+09:56:08.133: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+09:56:08.133: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+09:56:08.133: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+09:56:08.133: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+09:56:08.134: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:56:08.299: v4l2-input: /dev/video0: select timed out
+09:56:08.299: v4l2-input: /dev/video0: failed to log status
+09:56:08.817: v4l2-input: /dev/video0: Stopped capture after 16 frames
+09:56:08.821: v4l2-input: Start capture from 
+09:56:08.821: v4l2-input: Unable to open device
+09:56:08.821: v4l2-input: Initialization failed, errno: No such file or directory
+09:56:12.010: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Scene'
+09:56:22.993: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+09:56:22.993: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+09:56:22.996: User added source 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source) to scene 'Scene'
+09:56:23.001: [camera-portal] Selected resolution for ''
+09:56:23.001: [camera-portal] Selected format for ''
+09:56:23.001: [camera-portal] selected camera ''
+09:56:23.012: [camera-portal] Error accessing camera: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Camera” on object at path /org/freedesktop/portal/desktop
+09:57:08.699: User Removed source 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source) from scene 'Scene'
+09:59:37.495: ==== Shutting down ==================================================
+09:59:37.498: pulse-input: Stopped recording from 'alsa_output.pci-0000_04_00.6.HiFi__Headphones__sink.monitor'
+09:59:37.498: pulse-input: Got 13400 packets with 16080000 frames
+09:59:37.498: pulse-input: Stopped recording from 'alsa_input.pci-0000_04_00.6.HiFi__Mic2__source'
+09:59:37.498: pulse-input: Got 13399 packets with 16078800 frames
+09:59:37.520: All scene data cleared
+09:59:37.520: ------------------------------------------------
+09:59:37.610: [Scripting] Total detached callbacks: 0
+09:59:37.610: Freeing OBS context data
+09:59:37.627: == Profiler Results =============================
+09:59:37.627: run_program_init: 717.03 ms
+09:59:37.627:  ┣OBSApp::AppInit: 12.051 ms
+09:59:37.627:  ┃ ┗OBSApp::InitLocale: 2.532 ms
+09:59:37.627:  ┗OBSApp::OBSInit: 675.737 ms
+09:59:37.627:    ┣obs_startup: 2.268 ms
+09:59:37.627:    ┗OBSBasic::OBSInit: 643.366 ms
+09:59:37.627:      ┣OBSBasic::InitBasicConfig: 0.107 ms
+09:59:37.627:      ┣OBSBasic::ResetAudio: 0.224 ms
+09:59:37.627:      ┣OBSBasic::ResetVideo: 75.725 ms
+09:59:37.627:      ┃ ┗obs_init_graphics: 70.895 ms
+09:59:37.627:      ┃   ┗shader compilation: 26.511 ms
+09:59:37.627:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+09:59:37.627:      ┣OBSBasic::InitHotkeys: 0.022 ms
+09:59:37.627:      ┣obs_load_all_modules2: 464.525 ms
+09:59:37.627:      ┃ ┣obs_init_module(decklink-captions.so): 0.001 ms
+09:59:37.627:      ┃ ┣obs_init_module(decklink-output-ui.so): 0.001 ms
+09:59:37.627:      ┃ ┣obs_init_module(decklink.so): 0.113 ms
+09:59:37.627:      ┃ ┣obs_init_module(frontend-tools.so): 65.411 ms
+09:59:37.627:      ┃ ┣obs_init_module(image-source.so): 0.011 ms
+09:59:37.627:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+09:59:37.627:      ┃ ┣obs_init_module(linux-capture.so): 0.002 ms
+09:59:37.627:      ┃ ┣obs_init_module(linux-jack.so): 0.007 ms
+09:59:37.627:      ┃ ┣obs_init_module(linux-pipewire.so): 11.23 ms
+09:59:37.627:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.005 ms
+09:59:37.627:      ┃ ┣obs_init_module(linux-v4l2.so): 3.626 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-ffmpeg.so): 32.015 ms
+09:59:37.627:      ┃ ┃ ┗nvenc_check: 1.07 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-filters.so): 0.038 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-libfdk.so): 0.004 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-outputs.so): 0.009 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-qsv11.so): 16.182 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-transitions.so): 0.009 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-vst.so): 0.005 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-webrtc.so): 0.012 ms
+09:59:37.627:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+09:59:37.627:      ┃ ┣obs_init_module(rtmp-services.so): 1.141 ms
+09:59:37.627:      ┃ ┗obs_init_module(text-freetype2.so): 0.018 ms
+09:59:37.627:      ┣OBSBasic::InitService: 1.239 ms
+09:59:37.627:      ┣OBSBasic::ResetOutputs: 0.192 ms
+09:59:37.627:      ┣OBSBasic::CreateHotkeys: 0.024 ms
+09:59:37.627:      ┣OBSBasic::InitPrimitives: 0.049 ms
+09:59:37.627:      ┗OBSBasic::Load: 41.308 ms
+09:59:37.627: obs_hotkey_thread(25 ms): min=0 ms, median=0.002 ms, max=0.039 ms, 99th percentile=0.004 ms, 100% below 25 ms
+09:59:37.627: audio_thread(Audio): min=0.013 ms, median=0.054 ms, max=2.807 ms, 99th percentile=0.263 ms
+09:59:37.627: obs_graphics_thread(16.6667 ms): min=0.131 ms, median=0.633 ms, max=196.773 ms, 99th percentile=1.44 ms, 99.9652% below 16.667 ms
+09:59:37.627:  ┣tick_sources: min=0.002 ms, median=0.012 ms, max=195.415 ms, 99th percentile=0.025 ms
+09:59:37.627:  ┣output_frame: min=0.097 ms, median=0.274 ms, max=13.602 ms, 99th percentile=0.799 ms
+09:59:37.627:  ┃ ┗gs_context(video->graphics): min=0.094 ms, median=0.27 ms, max=13.599 ms, 99th percentile=0.794 ms
+09:59:37.627:  ┃   ┣render_video: min=0.011 ms, median=0.041 ms, max=4.584 ms, 99th percentile=0.113 ms
+09:59:37.627:  ┃   ┃ ┗render_main_texture: min=0.006 ms, median=0.032 ms, max=4.578 ms, 99th percentile=0.104 ms
+09:59:37.627:  ┃   ┗gs_flush: min=0.001 ms, median=0.006 ms, max=0.101 ms, 99th percentile=0.016 ms
+09:59:37.627:  ┗render_displays: min=0.002 ms, median=0.302 ms, max=34.892 ms, 99th percentile=0.742 ms
+09:59:37.627: OBSBasicSettings::LoadThemeList: 0.038 ms
+09:59:37.627: =================================================
+09:59:37.627: == Profiler Time Between Calls ==================
+09:59:37.627: obs_hotkey_thread(25 ms): min=25.022 ms, median=25.096 ms, max=30.608 ms, 99.3793% within ±2% of 25 ms (0% lower, 0.6207% higher)
+09:59:37.628: obs_graphics_thread(16.6667 ms): min=2.245 ms, median=16.667 ms, max=196.781 ms, 97.8037% within ±2% of 16.667 ms (1.13789% lower, 1.05839% higher)
+09:59:37.628: =================================================
+09:59:37.632: Number of memory leaks: 2

@@ -1,0 +1,120 @@
+#!/bin/bash
+
+screen_id=$1
+if [ -z "$screen_id" ]; then
+    echo "Error: Screen ID not provided."
+    exit 1
+else
+    echo "Screen ID Received: "$screen_id""
+fi
+
+## Files and cmd
+FILE="$HOME/.cache/eww_launch.dashboard"
+CFG="$HOME/.config/eww/dashboard"
+EWW=`which eww`
+
+## Run eww daemon if not running already
+if [[ ! `pidof eww` ]]; then
+    ${EWW} daemon
+    sleep 1
+fi
+
+## Open widgets specific to the given monitor
+run_eww() {
+    case "$screen_id" in
+        "HDMI-A-1")
+            ${EWW} --config "$CFG" open-many \
+                profile1 \
+                system1 \
+                clock1 \
+                uptime1 \
+                music1 \
+                github1 \
+                reddit1 \
+                twitter1 \
+                youtube1 \
+                weather1 \
+                apps1 \
+                mail1 \
+                logout1 \
+                sleep1 \
+                reboot1 \
+                poweroff1 \
+                folders1 \
+            ;;
+        "DP-2")
+            ${EWW} --config "$CFG" open-many \
+                profile2 \
+                system2 \
+                clock2 \
+                uptime2 \
+                music2 \
+                github2 \
+                reddit2 \
+                twitter2 \
+                youtube2 \
+                weather2 \
+                apps2 \
+                mail2 \
+                logout2 \
+                sleep2 \
+                reboot2 \
+                poweroff2 \
+                folders2 \
+            ;;
+        "eDP-1")
+            ${EWW} --config "$CFG" open-many \
+                profile3 \
+                system3 \
+                clock3 \
+                uptime3 \
+                music3 \
+                github3 \
+                reddit3 \
+                twitter3 \
+                youtube3 \
+                weather3 \
+                apps3 \
+                mail3 \
+                logout3 \
+                sleep3 \
+                reboot3 \
+                poweroff3 \
+                folders3 \
+            ;;
+        *)
+            echo "Error: Invalid screen ID."
+            exit 1
+            ;;
+    esac
+}
+
+## Launch or close widgets accordingly
+if [[ ! -f "$FILE" ]]; then
+    touch "$FILE"
+    run_eww
+else
+    # Close widgets on the specific monitor (screen_id) before removing the file
+    case "$screen_id" in
+        "HDMI-A-1")
+            ${EWW} --config "$CFG" close \
+                profile1 system1 clock1 uptime1 music1 github1 \
+                reddit1 twitter1 youtube1 weather1 apps1 mail1 logout1 sleep1 reboot1 poweroff1 folders1 \
+            ;;
+        "DP-2")
+            ${EWW} --config "$CFG" close \
+                profile2 system2 clock2 uptime2 music2 github2 \
+                reddit2 twitter2 youtube2 weather2 apps2 mail2 logout2 sleep2 reboot2 poweroff2 folders2 \
+            ;;
+        "eDP-1")
+            ${EWW} --config "$CFG" close \
+                profile3 system3 clock3 uptime3 music3 github3 \
+                reddit3 twitter3 youtube3 weather3 apps3 mail3 logout3 sleep3 reboot3 poweroff3 folders3 \
+            ;;
+        *)
+            echo "Error: Invalid screen ID."
+            exit 1
+            ;;
+    esac
+    rm "$FILE"
+fi
