@@ -1,0 +1,12 @@
+#!/bin/bash
+# Remove old top-level symlinks from the dotfiles root
+
+echo "🧹 Cleaning up root symlinks..."
+for item in *; do
+	if [ -L "$item" ]; then
+		echo "❌ Removing symlink: $item"
+		rm "$item"
+	fi
+done
+
+echo "✅ Cleaned all top-level symlinks!"

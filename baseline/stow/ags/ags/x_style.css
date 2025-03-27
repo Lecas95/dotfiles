@@ -1,0 +1,9 @@
+.bar {
+  background-color: rgba(30, 30, 46, 0.75);
+  border-radius: 12px;
+  padding: 0 10px;
+  color: #cdd6f4;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+  backdrop-filter: blur(10px);
+}
